@@ -1,3 +1,4 @@
+// Q) Write a C program to insert an element into an array.
 #include<stdio.h>
 
 void displayArray(int arr[], int n) {

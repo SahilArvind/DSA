@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 void displayArray(int arr[], int n){
-    printf("The Array is: [ ");
+    printf("[ ");
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
@@ -26,10 +26,10 @@ int main () {
 
     int arr[size+1];
     printf("Enter %d elements into the array:\n", size);
-    for(int i = 0; i <= size; i++){
+    for(int i = 0; i < size; i++){
         scanf("%d", &arr[i]);
     }
-
+    printf("The array you created is: ");
     displayArray(arr, size);
 
     int index;
